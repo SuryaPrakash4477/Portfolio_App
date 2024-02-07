@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 
 col1, col2 = st.columns(2)
 
@@ -14,3 +14,5 @@ with col2:
 I am Working in Holmium Technology Comoany.
     """
     st.info(content)
+
+st.write("Below you can find some of the apps I ahve Built in Pytho. Feel free to contact me")
